@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/framerate.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="vyteeLogoStart">
+			<img src="img/welcomeLogo.png"/>
+			<div id="welcomeLogoText">
+				Ideas + Proyectos
+			</div>
+		</div>
+		
+		<div id="welcomeContainer">
+			<div id="mainBackground">
+				<div id="banner1Container" style="position:absolute">
+					<div class="banner" id="banner1">
+						<img src="img/banner1.jpg"/>
+					</div>
+					<div class="banner" id="banner1ADS">
+						<img src="img/banner1ADS.png"/>
+					</div>
+					<div class="banner" id="banner1TEXT">
+						<img src="img/banner1TEXT.png"/>
+					</div>
+				</div>
+				<div id="banner2Container" style="position:absolute">
+					<div class="banner" id="banner2">
+						<img src="img/banner2.jpg"/>
+					</div>
+					<div class="banner" id="banner2ADS">
+						<img src="img/banner2ADS.png"/>
+					</div>
+					<div class="banner" id="banner2TEXT">
+						<img src="img/banner2TEXT.png"/>
+					</div>
+				</div>
+				<div id="banner3Container" style="position:absolute">
+					<div class="banner" id="banner3">
+						<img src="img/banner3.jpg"/>
+					</div>
+					<div class="banner" id="banner3ADS">
+						<img src="img/banner3ADS.png"/>
+					</div>
+					<div class="banner" id="banner3TEXT">
+						<img src="img/banner3TEXT.png"/>
+					</div>
+				</div>
+				<div id="genericBG">
+					<img src="img/welcomeGenericBG.png"/>
+				</div>
+				<div id="upperNav">
+					<div id="leftNav">
+						<a>Desarrollo Web</a> | 
+						<a>Gráfico Digital</a>
+					</div>
+					<div id="rightNav">
+						<a>Iniciar Sesión</a> |
+						<img src="img/welcomeNavButon.png"/>
+					</div>
+				</div>
+				
+			</div>
+			<div id="bottomContainer">
+				<div id="englishLink">
+
+				</div>
+				<div id="welcomeMessage">
+					Bienvenido <br/>
+					¿Qué tienes en mente hoy?
+				</div>
+				<div id="vyteeLogo">
+					<img src="img/welcomeLogo.png"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		$().framerate({framerate: 120, logframes: true});
+		$(document).ready(function(){
+		
+		/*Animación Inicial*/
+			$('#welcomeContainer').animate({opacity: 0}, 1);
+			$('#englishLink').animate({opacity: 0}, 1);
+			$('#welcomeMessage').animate({opacity: 0}, 1);
+			$('#vyteeLogo').animate({opacity: 0}, 1);
+			$('#welcomeLogoText').animate({opacity: 0}, 1);
+			
+			$('#vyteeLogoStart').animate({left: 0, }, 1000, function() {
+				$('#welcomeLogoText').animate({top: 0, opacity: 1}, 1000, function() {
+				    $('#welcomeContainer').delay(2000).animate({top: 0, opacity: 1}, 1000, function() {
+					    $('#englishLink').animate({right: 820, opacity: 1}, 500, function() {
+					    	// Animation complete.
+						});
+						$('#welcomeMessage').animate({right: 350, opacity: 1}, 500, function() {
+						    // Animation complete.	
+						});
+						$('#vyteeLogo').animate({right: 0, opacity: 1}, 500, function() {
+						    // Animation complete.
+						});
+					});
+				});   
+			});
+		
+		/*Animación Banner 1*/
+			$('#banner1ADS').delay(6000).fadeIn(3000);		
+			$('#banner1TEXT').delay(8000).fadeIn(2000);	
+			$('#banner1').delay(11000).fadeIn(2000);
+			$('#banner1ADS').delay(3000).fadeOut(1000);	
+			$('#banner1Container').delay(18000).animate({opacity: 0}, 700);
+			
+		/*Animación Banner 2*/
+			$('#banner2ADS').delay(18000).fadeIn(3000);		
+			$('#banner2TEXT').delay(20000).fadeIn(2000);	
+			$('#banner2').delay(22000).fadeIn(2000);
+			$('#banner2ADS').delay(2000).fadeOut(1000);	
+			$('#banner2Container').delay(26000).animate({opacity: 0}, 700);	
+			
+		/*Animación Banner 3*/
+			$('#banner3ADS').delay(26000).fadeIn(3000);		
+			$('#banner3TEXT').delay(28000).fadeIn(2000);	
+			$('#banner3').delay(31000).fadeIn(2000);
+			$('#banner3ADS').delay(3000).fadeOut(1000);	
+			$('#banner3Container').delay(38000).animate({opacity: 0}, 700);	
+
+		});
+	</script>
+
+</body>
+
+</html>
