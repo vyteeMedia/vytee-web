@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdad3471-d41e-4796-9527-31e2c35313a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/equipo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/equipo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getVarGET.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\pruebas\vytee-web\default.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contenido.php" afterPath="$PROJECT_DIR$/contenido.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constructor/cabecera/general.html" afterPath="$PROJECT_DIR$/constructor/cabecera/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constructor/constructor.php" afterPath="$PROJECT_DIR$/constructor/constructor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/equipo.html" afterPath="$PROJECT_DIR$/content/equipo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default.html" afterPath="$PROJECT_DIR$/default.html" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,16 +41,55 @@
       <file leaf-file-name="contenido.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contenido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.2692308">
+            <state line="23" column="30" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getVarGET.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/getVarGET.php">
+      <file leaf-file-name="equipo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plantillas/equipo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.19274376">
+            <state line="13" column="24" selection-start="317" selection-end="317" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constructor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constructor/constructor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="43" selection-start="1238" selection-end="1238" vertical-scroll-proportion="-23.538462">
+              <folding>
+                <marker date="1357726586961" expanded="true" signature="1438:1447" placeholder="..." />
+                <marker date="1357726586961" expanded="true" signature="1865:1874" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/constructor/cabecera/general.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="45" selection-start="401" selection-end="401" vertical-scroll-proportion="0.26984128">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="339" column="0" selection-start="12863" selection-end="12863" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equipo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/equipo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -68,22 +108,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/login/default.html" />
         <option value="$PROJECT_DIR$/constructor.php" />
         <option value="$PROJECT_DIR$/constructor/creditos/general.html" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/js/animacion.js" />
         <option value="$PROJECT_DIR$/default.php" />
-        <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/content/inicio.html" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/constructor/constructor.php" />
         <option value="$PROJECT_DIR$/plantillas/generica.php" />
         <option value="$PROJECT_DIR$/plantillas/equipo.php" />
-        <option value="$PROJECT_DIR$/constructor/cabecera/general.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/content/equipo.html" />
         <option value="$PROJECT_DIR$/contenido.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/default.html" />
+        <option value="$PROJECT_DIR$/content/equipo.html" />
+        <option value="$PROJECT_DIR$/constructor/constructor.php" />
+        <option value="$PROJECT_DIR$/constructor/cabecera/general.html" />
       </list>
     </option>
   </component>
@@ -173,6 +213,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vytee-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constructor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vytee-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constructor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cabecera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -190,8 +262,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="vytee Server" serverId="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" createEmptyFolders="true" autoUpload="true" uploadOnSaveAll="true">
     <servers>
@@ -239,10 +311,10 @@
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -271,14 +343,14 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" server_name="vytee Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" server_name="vytee Server">
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -362,21 +434,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.49573106" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1878453" sideWeight="0.5828877" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19005525" sideWeight="0.5860962" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10773481" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1878453" sideWeight="0.40962568" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19005525" sideWeight="0.4064171" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.53177255" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -441,11 +513,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/welcomeLogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/mainLogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -453,28 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.1923077">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="409" vertical-scroll-proportion="0.01923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constructor/constructor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="1255" selection-end="1255" vertical-scroll-proportion="-2.1923077">
-          <folding>
-            <marker date="1357713319516" expanded="true" signature="1341:1350" placeholder="..." />
-            <marker date="1357713319516" expanded="true" signature="1768:1777" placeholder="..." />
-          </folding>
-        </state>
+        <state line="10" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.1923077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plantillas/generica.php">
@@ -486,35 +532,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/constructor/creditos/general.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="483" column="1" selection-start="9793" selection-end="9793" vertical-scroll-proportion="0.17621145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/equipo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="417" selection-end="417" vertical-scroll-proportion="0.3276644">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/equipo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="88" selection-start="532" selection-end="532" vertical-scroll-proportion="0.26984128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constructor/cabecera/general.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="259" selection-end="259" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
@@ -526,28 +549,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default.html">
+    <entry file="file://$PROJECT_DIR$/getVarGET.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contenido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.2692308">
+        <state line="23" column="30" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getVarGET.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.19274376">
+        <state line="339" column="0" selection-start="12863" selection-end="12863" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="69" selection-start="374" selection-end="374" vertical-scroll-proportion="0.11564626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/equipo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/equipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="317" selection-end="317" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constructor/constructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="43" selection-start="1238" selection-end="1238" vertical-scroll-proportion="-23.538462">
+          <folding>
+            <marker date="1357726586961" expanded="true" signature="1438:1447" placeholder="..." />
+            <marker date="1357726586961" expanded="true" signature="1865:1874" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constructor/cabecera/general.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="401" selection-end="401" vertical-scroll-proportion="0.26984128">
           <folding />
         </state>
       </provider>
