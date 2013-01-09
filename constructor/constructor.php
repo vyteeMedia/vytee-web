@@ -28,6 +28,10 @@ class constructorGeneral{
         }
     }
 
+    function agregarCSS($css){
+        echo '<link rel="stylesheet" href="css/'.$css.'.css">';
+    }
+
     function inicializarBODY(){
         echo '
             </head>

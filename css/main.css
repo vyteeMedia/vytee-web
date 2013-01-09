@@ -145,6 +145,7 @@
 #header{
     width: 1000px; height: 167px;
     margin-top: -8px;
+    margin-bottom: 15px;
 }
 
 #content{
@@ -479,6 +480,7 @@
 
 #bottomContent{
     width: 1000px; height: 264px;
+    margin-top: 15px;
 }
 
 #bottomColumnA{

@@ -18,21 +18,15 @@ include('getVarGET.php'); //Obtener variables de la URL
 $default = new constructorGeneral();
 $interfaz = new contructorInterfaz();
 
-//Inicializar el HTML
-$default->inicializarHTML('Bienvenido a vytee Media Solutions');
-$default->agregarJavascript("framerate");
-$default->inicializarBODY();
+//definir si es generico o pre-determinado
+switch($q){
+    case "equipo"||"Equipo":
+        include ("plantillas/equipo.php");
+        break;
 
-//Iniciar el body
-$interfaz->establecerWrapper();
+    default:
+        include ("plantillas/generica.php");
 
-//Mostrar el contenido
-$interfaz->insertarCabecera("general");
+}
 
-$interfaz->agregarHTML("content/".$q.".html");
-
-$interfaz->insertarCreditos("general");
-
-$default->agregarJavascript("animacion");
-$default->finalizarHTML();
 ?>
