@@ -465,9 +465,9 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 # period. This includes directories used by version control systems such as
 # Subversion or Git.
 <IfModule mod_rewrite.c>
-  RewriteCond %{SCRIPT_FILENAME} -d [OR]
-  RewriteCond %{SCRIPT_FILENAME} -f
-  RewriteRule "(^|/)\." - [F]
+    RewriteEngine on
+    RewriteRule    ^$    heimdall/    [L]
+    RewriteRule    (.*) heimdall/$1    [L]
 </IfModule>
 
 # Block access to backup and source files. These files may be left by some
