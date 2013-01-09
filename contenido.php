@@ -26,7 +26,6 @@ switch($q){
 
     default:
         include ("plantillas/generica.php");
-
 }
 
 ?>
