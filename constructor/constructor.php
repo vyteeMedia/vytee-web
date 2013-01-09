@@ -62,7 +62,12 @@ class contructorInterfaz{
     }
 
     function agregarHTML($html){
-        include($html);
+        $varhtml = include($html);
+        if($varhtml==true){
+            return $varhtml;
+        }else{
+            header ("Location: 404.html");
+        }
     }
 }
 ?>
