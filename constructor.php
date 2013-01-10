@@ -4,6 +4,7 @@ define("STATIC_URL", "/vytee-web/");
 class constructorGeneral{
     function inicializarHTML($titulo){
         echo '
+            <!DOCTYPE html>
             <html>
             <head>
 
@@ -14,8 +15,6 @@ class constructorGeneral{
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width">
 
-            <link rel="stylesheet" href="'.STATIC_URL.'css/normalize.css">
-            <script src="'.STATIC_URL.'js/vendor/modernizr-2.6.2.min.js"></script>
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         ';
     }

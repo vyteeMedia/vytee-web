@@ -65,7 +65,7 @@
             ¿Qué tienes en mente hoy?
         </div>
         <div id="vyteeLogo">
-            <a href="home.html"><img src="img/welcomeLogo.png"/></a>
+            <a href="home"><img src="img/welcomeLogo.png"/></a>
         </div>
     </div>
 </div>

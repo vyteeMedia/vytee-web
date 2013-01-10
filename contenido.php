@@ -24,7 +24,7 @@ switch($q){
         if(isset($c)){
             switch($c){
                 case "equipo":
-                    include("plantillas/equipo.php");
+                    include("plantillas/_equipo.php");
                     break;
 
                 default:
@@ -37,7 +37,11 @@ switch($q){
         break;
 
     case "inicio":
-        include("plantillas/inicio.php");
+        include("plantillas/_inicio.php");
+        break;
+
+    case "home":
+        include("plantillas/_home.php");
         break;
 
     default:

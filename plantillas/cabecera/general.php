@@ -12,7 +12,7 @@
     <div id="mainHeader">
         <div id="mainVyteeLogo">
             <div id="logoImg">
-                <img src="/vytee-web/img/mainLogo.png" alt="Main Logo"/>
+                <img src="<?php echo STATIC_URL;?>img/mainLogo.png" alt="Main Logo"/>
             </div>
             <div id="eslogan">
                 Soluciones y desarrollo gráfico multimedia

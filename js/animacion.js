@@ -44,5 +44,5 @@ $(document).ready(function(){
     $('#banner3').delay(31000).fadeIn(2000);
     $('#banner3ADS').delay(3000).fadeOut(1000);
     $('#banner3Container').delay(38000).animate({opacity: 0}, 700);
-
 });
+

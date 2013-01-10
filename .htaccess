@@ -338,7 +338,7 @@ FileETag None
   Options +FollowSymLinks
   RewriteEngine On
 
-  #Una Variables
+    #Una Variables
     Rewriterule ^(\w+)(/?)$ contenido.php?q=$1 [L]
 
     #Dos Variables
