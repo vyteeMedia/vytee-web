@@ -44,5 +44,12 @@ $(document).ready(function(){
     $('#banner3').delay(31000).fadeIn(2000);
     $('#banner3ADS').delay(3000).fadeOut(1000);
     $('#banner3Container').delay(38000).animate({opacity: 0}, 700);
+
+    /*Animación Banner 4*/
+    $('#banner4').delay(36000).fadeIn(5000);
+    $('#banner1Container').delay(24000).animate({opacity: 1}, 3000);
+    $('#banner1').delay(24000).fadeIn(3000);
+    $('#banner1TEXT').delay(20000).fadeOut(1);
+    $('#banner4').delay(50000).fadeOut(1000);
 });
 

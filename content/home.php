@@ -8,8 +8,8 @@
         <img src="img/mainGenericBanner.png"/>
     </div>
     <!--/Fondo Genérico para los banners-->
-
 </div>
+
 <div id="mainContent">
     <div id="section_Clientes">
         <div id="previews">

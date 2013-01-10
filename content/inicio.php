@@ -8,7 +8,7 @@
 
 <div id="welcomeContainer">
     <div id="mainBackground">
-        <div id="banner1Container" style="position:absolute">
+        <div id="banner1Container" style="position:absolute" onclick="location.href='home'">
             <div class="banner" id="banner1">
                 <img src="img/banner1.jpg"/>
             </div>
@@ -41,8 +41,13 @@
                 <img src="img/banner3TEXT.png"/>
             </div>
         </div>
+        <div id="banner4Container" style="position:absolute">
+            <div class="banner" id="banner4">
+                <img src="img/banner4TEXT.png"/>
+            </div>
+        </div>
         <div id="genericBG">
-            <img src="img/welcomeGenericBG.png"/>
+            <a href="home"><img src="img/welcomeGenericBG.png"/></a>
         </div>
         <div id="upperNav">
             <div id="leftNav">

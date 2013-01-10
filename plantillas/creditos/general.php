@@ -2,13 +2,13 @@
     <div id="bottomColumnA">
         <div class="column">
             <div class="columnDepartment">
-                <span>Departamento de Desarrollo Web</span><br/>
+                <span>División de Desarrollo Web</span><br/>
                 Equipo de Desarrollo<br/>
                 Equipo de Implementación de GUI<br/>
                 Equipo de Maquetación Inicial<br/>
             </div>
             <div class="columnDepartment">
-                <span>Departamento de Diseño Gráfico</span><br/>
+                <span>División de Diseño Gráfico</span><br/>
                 Equipo Creatividad Digital<br/>
                 Equipo de Vectorización Gráfica<br/>
                 Equipo de Imágen Publicitaria<br/>
@@ -21,7 +21,7 @@
 
         <div class="column">
             <div class="columnDepartment">
-                <span>Departamento de Producción Audiovisual</span><br/>
+                <span>División de Producción Audiovisual</span><br/>
                 Producción de Cortometrajes<br/>
                 Producción de Videos Institucionales<br/>
                 Fotografía Profesional<br/>
@@ -30,7 +30,7 @@
 
         <div class="column">
             <div class="columnDepartment">
-                <span>Departamento de Marketing Social</span><br/>
+                <span>División de Marketing Social</span><br/>
                 Propagación de Marca en Redes Sociales<br/>
                 Administración de Páginas Sociales<br/>
                 Interacción con usuarios y clientes constante<br/>

@@ -1,6 +1,6 @@
 <?php
 //Inicializar el HTML
-$default->inicializarHTML('vytee Media - Equipo');
+$default->inicializarHTML('Bienvenido a vytee Media Solutions');
 
 //Agregar CSS
 $default->agregarCSS("main");
