@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#vyteeLogo').animate({opacity: 0}, 1);
     $('#welcomeLogoText').animate({opacity: 0}, 1);
 
-    $('#vyteeLogoStart').animate({left: 0, }, 1000, function() {
+    $('#vyteeLogoStart').animate({left: 0 }, 1000, function() {
         $('#welcomeLogoText').animate({top: 0, opacity: 1}, 1000, function() {
             $('#welcomeContainer').delay(2000).animate({top: 0, opacity: 1}, 1000, function() {
                 $('#englishLink').animate({right: 820, opacity: 1}, 500, function() {

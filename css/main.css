@@ -288,9 +288,26 @@
 
 #urlLocation{
     padding-left: 10px;
+    font-size:12px;
+    line-height:150%;
+    color:rgb(169,68,33);
 }
 
-.locationHistory{
+#urlLocation a{
+    text-decoration: none;
+}
+
+#locationHistory a:visited{
+    text-decoration: none;
+    color:rgb(169,68,33);
+}
+
+#locationActive a:visited{
+    text-decoration: none;
+    color:rgb(107,121,121);
+}
+
+.locationHistory a{
     font-family:Arial, Helvetica, sans-serif;
     font-size:12px;
     line-height:150%;
@@ -298,7 +315,7 @@
     text-align:left;
 }
 
-.locationActive{
+.locationActive a{
     font-family:Arial, Helvetica, sans-serif;
     font-size:12px;
     line-height:150%;
