@@ -50,6 +50,6 @@ $(document).ready(function(){
     $('#banner1Container').delay(24000).animate({opacity: 1}, 3000);
     $('#banner1').delay(24000).fadeIn(3000);
     $('#banner1TEXT').delay(20000).fadeOut(1);
-    $('#banner4').delay(50000).fadeOut(1000);
+    $('#banner4').delay(2000).fadeOut(1000);
 });
 

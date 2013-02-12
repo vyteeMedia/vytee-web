@@ -2,15 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdad3471-d41e-4796-9527-31e2c35313a3" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\xampp\htdocs\vytee-web\default.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/desarrollo_web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/plantillaBasica.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_desarrollo_web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_empresa.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\img\home_r2_c2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\img\home_r3_c7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\img\home_r5_c4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\img\home_r9_c1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner1ADS.png" afterPath="$PROJECT_DIR$/img/banner1ADS.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner2ADS.png" afterPath="$PROJECT_DIR$/img/banner2ADS.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner3ADS.png" afterPath="$PROJECT_DIR$/img/banner3ADS.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/btnI1.png" afterPath="$PROJECT_DIR$/img/btnI1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mainBanner.png" afterPath="$PROJECT_DIR$/img/mainBanner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mainGenericBanner.png" afterPath="$PROJECT_DIR$/img/mainGenericBanner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/previewCliente1.png" afterPath="$PROJECT_DIR$/img/previewCliente1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/previewCliente2.png" afterPath="$PROJECT_DIR$/img/previewCliente2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/previewCliente3.png" afterPath="$PROJECT_DIR$/img/previewCliente3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/welcomeGenericBG.png" afterPath="$PROJECT_DIR$/img/welcomeGenericBG.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vytee-web.iml" afterPath="$PROJECT_DIR$/.idea/vytee-web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constructor.php" afterPath="$PROJECT_DIR$/constructor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contenido.php" afterPath="$PROJECT_DIR$/contenido.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/equipo.php" afterPath="$PROJECT_DIR$/content/equipo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/home.php" afterPath="$PROJECT_DIR$/content/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/inicio.php" afterPath="$PROJECT_DIR$/content/inicio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/equipo.css" afterPath="$PROJECT_DIR$/css/equipo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animacion.js" afterPath="$PROJECT_DIR$/js/animacion.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animacionInicio.js" afterPath="$PROJECT_DIR$/js/animacionInicio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/_inicio.php" afterPath="$PROJECT_DIR$/plantillas/_inicio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/creditos/general.php" afterPath="$PROJECT_DIR$/plantillas/creditos/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/_generica.php" afterPath="$PROJECT_DIR$/plantillas/_generica.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/cabecera/general.php" afterPath="$PROJECT_DIR$/plantillas/cabecera/general.php" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +65,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="general.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
+      <file leaf-file-name="_empresa.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plantillas/_empresa.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -49,15 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inicio.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/inicio.php">
+      <file leaf-file-name="_desarrollo_web.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plantillas/_desarrollo_web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="45" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-19.153847">
+            <state line="2" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desarrollo_web.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/desarrollo_web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="33" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-8.576923">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,25 +103,55 @@
       <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="9" selection-end="19" vertical-scroll-proportion="-0.0">
+            <state line="48" column="21" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-31.384615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="general.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plantillas/creditos/general.php">
+        <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="30" selection-start="1292" selection-end="1292" vertical-scroll-proportion="-13.076923">
+            <state line="23" column="50" selection-start="913" selection-end="913" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_inicio.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plantillas/_inicio.php">
+      <file leaf-file-name="constructor.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/constructor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="359" selection-end="359" vertical-scroll-proportion="-11.769231">
+            <state line="14" column="48" selection-start="379" selection-end="379" vertical-scroll-proportion="0.26984128">
+              <folding>
+                <marker date="1358822319525" expanded="true" signature="993:1002" placeholder="..." />
+                <marker date="1358822319525" expanded="true" signature="2453:2462" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equipo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/equipo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="22" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contenido.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contenido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="20" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plantillaBasica.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/plantillaBasica.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="29" selection-start="2686" selection-end="2686" vertical-scroll-proportion="-7.769231">
               <folding />
             </state>
           </provider>
@@ -93,34 +160,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="336" column="0" selection-start="6934" selection-end="6934" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alto.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/alto.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animacion.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/animacion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="29" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.85022026">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animacionInicio.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animacionInicio.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="281" column="19" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="Z:/plantillas/_home.php" />
-        <option value="Z:/js/animacion.js" />
-        <option value="Z:/plantillas/_equipo.php" />
-        <option value="Z:/content/equipo.php" />
-        <option value="Z:/css/equipo.css" />
         <option value="Z:/js/animacionInicio.js" />
-        <option value="Z:/constructor.php" />
-        <option value="$PROJECT_DIR$/css/alto.css" />
-        <option value="$PROJECT_DIR$/plantillas/_inicio.php" />
-        <option value="$PROJECT_DIR$/constructor.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/plantillas/creditos/general.php" />
-        <option value="$PROJECT_DIR$/content/home.php" />
+        <option value="Z:/content/empresa.php" />
+        <option value="$PROJECT_DIR$/content/empresa.php" />
+        <option value="$PROJECT_DIR$/content/equipo.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/animacionInicio.js" />
-        <option value="$PROJECT_DIR$/content/inicio.php" />
-        <option value="$PROJECT_DIR$/js/animacion.js" />
+        <option value="$PROJECT_DIR$/plantillas/_generica.php" />
+        <option value="$PROJECT_DIR$/contenido.php" />
+        <option value="$PROJECT_DIR$/plantillas/_desarrollo_web.php" />
+        <option value="$PROJECT_DIR$/content/plantillaBasica.php" />
+        <option value="$PROJECT_DIR$/css/equipo.css" />
+        <option value="$PROJECT_DIR$/content/desarrollo_web.php" />
+        <option value="$PROJECT_DIR$/content/home.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/plantillas/cabecera/general.php" />
+        <option value="$PROJECT_DIR$/constructor.php" />
       </list>
     </option>
   </component>
@@ -225,6 +265,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,7 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="creditos" />
+              <option name="myItemId" value="cabecera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,11 +333,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vytee-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All" />
       </pane>
     </panes>
   </component>
@@ -313,68 +367,27 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig" serverName="vytee Server" serverId="f772f8a3-9877-4960-9ad2-1db74c5f1ddc" preserveTimestamps="false" createEmptyFolders="true" autoUpload="true" uploadOnSaveAll="true">
+  <component name="PublishConfig" serverName="vytee Server" serverId="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" createEmptyFolders="true" autoUpload="true" uploadOnSaveAll="true">
     <servers>
-      <server id="2164e2b6-4c27-4b26-856d-33238f696453">
-        <serverdata />
-      </server>
-      <server id="41d1ed1b-b570-4995-b204-e92f701d5ac9">
-        <serverdata />
-      </server>
-      <server id="4d65fdf6-10c7-440a-9988-8d8177e49e27">
-        <serverdata />
-      </server>
-      <server id="64c4aadb-ac0e-4c3a-91f6-f1fc953a6dbd">
-        <serverdata />
-      </server>
-      <server id="6823c290-9143-45b7-b96e-f0d17b267e62">
-        <serverdata />
-      </server>
       <server id="f772f8a3-9877-4960-9ad2-1db74c5f1ddc">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <ExcludedPath>
-              <option name="path" value="/app" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/briones" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/lccargo" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/proyectos" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/mlb" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/RGB" />
-            </ExcludedPath>
-            <ExcludedPath>
-              <option name="path" value="/recursos" />
-            </ExcludedPath>
-          </excludedPaths>
-        </serverdata>
+        <serverdata />
       </server>
     </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\vytee-web\plantillas" />
-      <recent name="C:\xampp\htdocs\vytee-web" />
       <recent name="C:\xampp\htdocs\vytee-web\content" />
-      <recent name="F:\Servidor Vytee\Dropbox\vytee\Proyectos Actuales\Desarrollo\Portal Vytee\html\login" />
+      <recent name="Z:\plantillas" />
+      <recent name="Z:\content" />
+      <recent name="C:\xampp\htdocs\vytee-web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\vytee-web\js" />
       <recent name="C:\xampp\htdocs\vytee-web" />
       <recent name="C:\xampp\htdocs\vytee-web\plantillas" />
       <recent name="D:\Google Drive\vytee Media Solutions\Proyectos Actuales\Desarrollo\Portal Vytee\html\constructor" />
       <recent name="F:\Servidor Vytee\Dropbox\vytee\Proyectos Actuales\Desarrollo\Portal Vytee\html\css" />
+      <recent name="F:\Servidor Vytee\Dropbox\vytee\Proyectos Actuales\Desarrollo\Portal Vytee\html" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.contenido.php">
@@ -494,11 +507,7 @@
       <created>1357780320901</created>
       <updated>1357780320901</updated>
     </task>
-    <task id="LOCAL-00004" summary="Alpha 5 - FrameWork Improvement">
-      <created>1357806650047</created>
-      <updated>1357806650047</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -523,25 +532,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.107182324" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.53177255" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.49573106" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20497237" sideWeight="0.44812834" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20497237" sideWeight="0.544385" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21381216" sideWeight="0.62994653" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10731319" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21381216" sideWeight="0.36256686" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.53177255" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -582,7 +591,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alpha 5 - FrameWork Improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alpha 4 - Framework Totalmente Operativo" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -598,94 +607,129 @@
     <MESSAGE value="Alpha 1C First PHP Storm Deployment" />
     <MESSAGE value="Alpha 2 - Mejora del Constructor" />
     <MESSAGE value="Alpha 4 - Framework Totalmente Operativo" />
-    <MESSAGE value="Alpha 5 - FrameWork Improvement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/alto.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="607" column="9" selection-start="18287" selection-end="18287" vertical-scroll-proportion="0.34240362" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constructor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="333" selection-end="333" vertical-scroll-proportion="0.2505669">
-          <folding>
-            <marker date="1357808078510" expanded="true" signature="936:945" placeholder="..." />
-            <marker date="1357808078510" expanded="true" signature="2398:2407" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/_inicio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="359" selection-end="359" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/creditos/general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="1292" selection-end="1292" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="0" selection-start="6934" selection-end="6934" vertical-scroll-proportion="0.0">
+        <state line="5" column="4" selection-start="55" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animacionInicio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+        <state line="24" column="76" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/equipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="372" selection-start="3039" selection-end="3039" vertical-scroll-proportion="-26.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/_generica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="366" selection-end="366" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/empresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="208" selection-end="208" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contenido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="20" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/plantillaBasica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="29" selection-start="2686" selection-end="2686" vertical-scroll-proportion="-7.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/equipo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="22" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/_desarrollo_web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/desarrollo_web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-8.576923">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="9" selection-end="19" vertical-scroll-proportion="-0.0">
+        <state line="48" column="21" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-31.384615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/inicio.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="45" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-19.153847">
+        <state line="281" column="19" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/_empresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="913" selection-end="913" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="379" selection-end="379" vertical-scroll-proportion="0.26984128">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1358822319525" expanded="true" signature="993:1002" placeholder="..." />
+            <marker date="1358822319525" expanded="true" signature="2453:2462" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/animacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="29" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.85022026">
-          <folding />
         </state>
       </provider>
     </entry>

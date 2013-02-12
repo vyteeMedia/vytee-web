@@ -1,17 +1,17 @@
 <div id="fixedHeader">
     <div id="logonBar">
         <div id="userID">
-            <p>[Usuario]</p>
+            <p>Hola, bienvenido!</p>
         </div>
         <div id="welcomeUserMessage">
-            <p>Bienvenido, es bueno tenerlo de regreso!</p>
+            <p>Registrese como cliente nuevo y empecemos con su proyecto!</p>
         </div>
     </div>
 </div>
 <div id="header">
     <div id="mainHeader">
         <div id="mainVyteeLogo">
-            <div id="logoImg">
+            <div id="logoImg" <?php linkTo("home"); ?>>
                 <img src="<?php echo STATIC_URL;?>img/mainLogo.png" alt="Main Logo"/>
             </div>
             <div id="eslogan">
@@ -19,13 +19,13 @@
             </div>
         </div>
         <div id="mainNav">
-            <a href="#">Desarrollo Web</a>
-            <a href="#">Diseño Gráfico</a>
+            <a href="#" <?php linkTo("empresa");?>>Acerca de Nosotros</a><br/>
+            <a href="#" <?php linkTo("divisiones/desarrollo_web");?>>Desarrollo Web </a>|<a href="#"> Diseño Gráfico</a>
             <a href="#">Producción Audiovisual</a>
         </div>
         <div id="location">
             <div id="urlLocation">
-                <span class="locationHistory"><a href="<?php echo STATIC_URL;?>">inicio</a> / </span>
+                <span class="locationHistory"><a href="<?php echo STATIC_URL;?>home">inicio</a> / </span>
                 <span class="locationActive"><a href="<?php if($nav1!=""){ echo $link1;}?>"><?php if($nav1!=""){ echo $nav1." / ";}?></a></span>
                 <span class="locationActive"><a href="<?php if($nav2!=""){ echo $link2;}?>"><?php if($nav2!=""){ echo $nav2." / ";} ?></a></span>
                 <span class="locationActive"><a href="<?php if($nav3!=""){ echo $link3;}?>"><?php if($nav3!=""){ echo $nav3." / ";} ?></a></span>

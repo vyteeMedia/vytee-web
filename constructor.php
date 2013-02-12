@@ -1,6 +1,6 @@
 <?php
 
-define("STATIC_URL", "/vytee-web/");
+define("STATIC_URL", "/");
 class constructorGeneral{
     function inicializarHTML($titulo){
         echo '
@@ -14,6 +14,7 @@ class constructorGeneral{
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width">
+            <link rel="icon" type="image/png" href="favicon.png"/>
 
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         ';
@@ -35,8 +36,6 @@ class constructorGeneral{
             <body>
         ';
     }
-
-
 
     function finalizarHTML(){
         echo '
@@ -111,5 +110,10 @@ class contructorInterfaz{
             header ("Location: 404.html");
         }
     }
+}
+
+function linkTo($link){
+    $ruta = "'".STATIC_URL.$link."'";
+    echo 'style="cursor: pointer" onclick="location.href='.$ruta.'"';
 }
 ?>

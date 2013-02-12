@@ -240,6 +240,9 @@
     top:27px;
 }
 
+::-moz-selection { background: #da9172; color: #fff; text-shadow: none; }
+::selection { background: #da9172; color: #fff; text-shadow: none; }
+
 #mainVyteeLogo{
     width: 511px; height: 67px;
     position: relative;
@@ -264,7 +267,7 @@
 
 #mainNav{
     text-align: right;
-    width: 250px; height: 75px;
+    width: 300px; height: 75px;
     position: absolute;
     top: 7px; right: 8px;
 }
@@ -276,7 +279,7 @@
     color:rgba(47,58,60,0.8);
     text-align:right;
     text-decoration: none;
-    display: block;
+    display: inline;
 }
 
 #location{
@@ -342,6 +345,11 @@
 
 .clear{
     clear: both;
+}
+
+.clearMarginBottom{
+    clear: both;
+    margin-bottom: 30px;
 }
 
 .mainBanner{

@@ -46,13 +46,13 @@
             <a href="#">
                 <img src="img/btnI1.png" id="btnI1"/>
             </a>
-            <a href="#">
+            <a href="divisiones/desarrollo_web">
                 <img src="img/btnI2.png" id="btnI2"/>
             </a>
             <a href="#">
                 <img src="img/btnI3.png" id="btnI3"/>
             </a>
-            <a href="#">
+            <a href="empresa">
                 <img src="img/btnI4.png" id="btnI4"/>
             </a>
         </div>

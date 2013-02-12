@@ -1,48 +1,192 @@
 /* css temporal equipo */
 #contentWrapper {
-    width: 815px;
+    width: 750px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#sidebarWrapper{
+    width: 230px;
+    float: right;
+}
+
+.siderbarResaltado{
+    width: 98%;
+    height:40px;
+    border:#A94422 solid 1px;
+    color: #A94422;
+    font-size: 18px;
+    font-family: arial;
+    padding-top: 15px;
+    margin-right: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.sidebarSimple{
+    width: 99%;
+    height:25px;
+    color: #3F3F3F;
+    font-size: 15px;
+    font-family: arial;
+    padding-top: 10px;
+    margin-right: 1%;
+    margin-left: 5%;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.mailSide{
+    width: 99%;
+    height:25px;
+    color: #A94422;
+    font-size: 12px;
+    font-family: arial;
+    margin-right: 1%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 47px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.imgSidebar{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgSidebarMail{
+    float: left;
+    width: 29px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.btnera{
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+.btnProducto{
+    width: 200px;
+    height: 87px;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.imgBtnProducto{
+    width: 200px;
+    height: 87px;
+}
+
+.mainTitle {
+    margin-bottom: 30px;
+}
+
+.subTitle{
+    margin-bottom: 15px;
+}
+
+.miniTitle{
+    margin-bottom: 30px;
+}
+
+.miniTitle h3{
+    font-family: arial;
+    font-size: 18px;
+    Color: #3F3F3F ;
+    font-weight:lighter;
+    margin-top:20px;
+}
+
+.subTitle h1{
+    font-family: arial;
+    font-size: 25px;
+    Color: #3F3F3F ;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.subTitle h3{
+    font-family: arial;
+    font-size: 15px;
+    Color: #A94421;
+    font-weight:lighter;
+    margin-top:0;
+}
+
+.mainTitle h3, .contentWithImage h3, .contentWithImageR h3{
+    font-family: arial;
+    font-size: 15px;
+    Color: #A94421;
+    font-weight:lighter;
+    margin-top:0;
 
 }
-h1{
+
+.mainTitle h1, .contentWithImage h1, .contentWithImageR h1{
     font-family: arial;
     font-size: 30px;
     Color: #3F3F3F ;
     font-weight: lighter;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
-h2{
+.imgTitulo{
+    margin-bottom: 30px;
+}
+
+.contentWithImage{
+    width: 750px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.contentWithImageR{
+    width: 750px;
+    margin-left: -10px;
+    margin-bottom: 15px;
+    background-color: #F3F3F4;
+    border: #CCCCCC solid 1px;
+    padding: 10px;
+}
+
+.contentWithImage img, .contentWithImageR img{
+    float:left;
+    margin-right: 10px;
+}
+
+.contentWithImage div{
+    width: 480px;
+    float:left;
+}
+
+.contentWithImage h2{
     font-family: arial;
     font-size: 18px;
     Color: #3F3F3F ;
     font-weight: lighter;
     margin-top: 0;
 }
-h3{
-    font-family: arial;
-    font-size: 15px;
-    Color: #A94421;
-    font-weight:lighter;
-    margin-bottom: 30px;
-    margin-top:0;
 
-}
-
-p{
+.contentWithImage div p, .contentWithImageR div p{
     font-family: arial;
     font-size: 12px;
     color:#3F3F3F ;
+    margin: 0;
+    line-height: 18px;
 }
 
-#pic{
-    width:301px;
-    height: 225px;
-}
-
-#paragraphBox{
-    width: 480px;
-    height: 143px;
-    float:right;
-
+.contentHighlight div p{
+    font-family: arial;
+    font-size: 12px;
+    color:#3F3F3F ;
+    margin: 0;
 }

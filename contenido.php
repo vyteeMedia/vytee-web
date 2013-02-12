@@ -32,7 +32,7 @@ switch($q){
                     break;
             }
         }else{
-            include("404.html");
+            include("plantillas/_empresa.php");
         }
         break;
 
@@ -43,6 +43,23 @@ switch($q){
     case "home":
         include("plantillas/_home.php");
         break;
+
+    case "divisiones":
+        if(isset($c)){
+            switch($c){
+                case "desarrollo_web":
+                    include("plantillas/_desarrollo_web.php");
+                    break;
+
+                default:
+                    include("404.html");
+                    break;
+            }
+        }else{
+            include("plantillas/_empresa.php");
+        }
+        break;
+
 
     default:
         include("404.html");

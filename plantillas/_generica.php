@@ -10,7 +10,7 @@ $interfaz->establecerWrapper();
 //Mostrar el contenido
 $interfaz->insertarCabecera("general");
 
-$interfaz->agregarHTML("content/".$q.".html");
+$interfaz->agregarHTML("content/".$q.".php");
 
 $interfaz->insertarCreditos("general");
 

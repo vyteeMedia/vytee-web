@@ -1,0 +1,256 @@
+
+#contenedor *{
+	font-family: arial, helvetica; 
+}
+
+#contenedor{
+    width:1000px;
+    height:750px;
+    margin: 0 auto;
+}
+	#contenedor #bloqueArriba{
+		width:1000px;
+		height: 130px; 
+		float: left;
+		margin-bottom: 10px;
+		position: relative;
+	}
+		#bloqueArriba #menu{
+			list-style: none;
+			width:auto;
+			float: left; 
+			padding-left: 10px;
+		}
+			#bloqueArriba #menu li{
+				width: auto;
+				float: left; 
+				font-size: 18px;
+				margin-right: 20px;
+				cursor: pointer;
+				color: #9797A5;
+			}
+			#bloqueArriba #menu li.encima{
+				color:black;
+			}
+		#bloqueArriba #datos{
+			list-style: none;
+			width:200px;
+			height: 80px;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+			#bloqueArriba #datos h3{
+				font-size: 16px;
+			}
+			#bloqueArriba #datos p{
+				font-size: 14px;
+			}	
+			#bloqueArriba #datos a{
+				font-size: 12px;
+			}	
+			#bloqueArriba #datos a#mnodificar{
+				color: red;
+			}	
+
+
+	#contenedor #sliderGrande{
+		width: 780px;
+		height: 625px;
+		float: left;
+		position: relative;
+		overflow: hidden; 
+		border-top:1px gray solid;
+	}
+		#sliderGrande #slide{
+			width: 2340px;
+			height: 625px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}	
+			#sliderGrande #slide .bloque{
+				width: 780px;
+				height: 625px;
+				float: left;
+				position: relative;
+			}	
+			#sliderGrande #slide .bloque #sliderTipos{
+				width: 3900px;
+				height: 595px;
+				left: 0;
+				top: 30px;
+				position: absolute;
+			}	
+			#sliderGrande #slide .bloque #sliderTipos .tipo{
+				width: 780px;
+				height: 625px;
+				float: left;
+				position: relative;
+			}				
+				#slide .bloque #menu2{
+					list-style: none;
+					width:540px;
+					height: auto;
+					float: left; 
+					margin:10px 0;
+					padding-left: 10px;
+			}
+					#slide .bloque #menu2 li{
+						list-style: none;
+						width: auto;
+						float: left; 
+						cursor: pointer;
+						color:#9797A5;
+						font-size: 14px;
+					}
+					#slide .bloque #menu2 li.encima{
+						color:black;
+					}
+					#slide .bloque #menu2 p{
+						float: left; 
+						width:auto;
+					}						
+				#slide .bloque #menu3{
+					list-style: none;
+					width: 500px;
+					float: left;
+					height: 25px;
+				}
+					#slide .bloque #menu3 p{
+						float: left; 
+						width:auto;
+						margin: 0;
+						font-size: 11px;
+						color:#3F3F3F;
+						margin:3px 0 0 10px;
+					}
+					#slide .bloque #menu3 ul{
+						list-style: none;
+						float: left; 
+						margin:3px 0 0 0;
+						color:#9797A5 ;
+						font-size: 11px;
+						padding-left: 10px;
+					}			
+					#slide .bloque #menu3 li{
+						width: auto;
+						float: left; 
+						cursor: pointer;
+					}						
+					#slide .bloque #menu3 li.encima{
+						color:black;
+					}
+				#sliderGrande #slide .bloque .bloqueDerecha{
+					width: 238px;
+					height: auto;
+					float: left;
+				}				
+					#slide .bloque .bloqueDerecha .parte{
+						width: 217px;
+						height: auto;
+						float: left;
+						border: 1px gray solid;
+						margin-bottom: 15px;
+						padding: 15px 10px;
+						min-height: 200px;
+					}
+						#slide .bloque .bloqueDerecha .parte:last-of-type{
+							margin-bottom: 0;
+						}
+						#slide .bloque .bloqueDerecha .parte p{
+							font-size: 12px;
+							color:#9797A5;
+						}
+				#sliderGrande #slide .bloque .sliderChico{
+					width: 540px;
+					height: 550px;
+					float: left;
+				}
+					#sliderGrande #slide .bloque .sliderChico > div{
+						display: none;
+					}
+					#sliderGrande #slide .bloque .sliderChico > div.mostrar{
+						display: block !important;
+					}
+					.sliderChico > div fieldset{
+						border-style: none;
+						padding: 0;
+					}
+					.sliderChico > div fieldset > div:first-of-type{
+						border-top:1px gray solid;
+					}
+						.sliderChico > div fieldset > a:link, .sliderChico > div fieldset > a:visited{
+							text-decoration: none;
+ 							color:#555;
+ 							font-size: 14px;
+ 							font-weight: bold;
+ 							margin-bottom: 7px;
+							float: left;
+							min-width: 185px;
+						}
+						.sliderChico > div fieldset > div{
+							margin-bottom: 10px;
+							height: 36px;
+							width: 100%;
+							float: left;
+						}
+						.sliderChico > div fieldset > div p{
+							font-size: 11px;
+							float: left;
+							margin: 0px 35px 0px 0;
+						}
+						.sliderChico > div fieldset > div p:nth-of-type(2){
+							margin-left: 22px;
+						}
+						.sliderChico > div fieldset > div p:first-of-type{
+							width:95%;
+						}
+							.sliderChico > div fieldset > div p:first-of-type span{
+								font-size: 13px !important;
+							}
+
+
+				#sliderGrande #slide .bloque button{
+					width: 98px;
+					height: 40px;
+					position: absolute;
+					top: -25px;
+					border: 1px #bababa solid;
+					background-color: white;
+					text-align: right;
+					padding-left: 30px;
+					z-index: 10;
+					cursor: pointer;
+				}
+					#sliderGrande #slide .bloque #tareas{
+						right: 269px;
+					}
+					#sliderGrande #slide .bloque #archivos{
+						right: 160px;
+					}
+					#sliderGrande #slide .bloque #asignado{
+						right: 0;
+						width: 150px !important;
+						padding-left: 0;
+						text-align: left;
+					}
+
+	#contenedor #sidebar{
+		width: 205px;
+		height: 625px;
+		float: left;
+	}		
+		#sidebar h3{
+			font-size: 16px;
+		}	
+		#sidebar #sidebarEstado{
+			font-size: 14px;
+		}	
+		#sidebar #actualizaciones{
+			font-size: 12px;
+			color: red;
+		}	
+
+
+
