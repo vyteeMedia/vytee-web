@@ -29,3 +29,5 @@ function botones(){
 		$('.sliderChico .'+id).addClass('mostrar');
 	});
 }
+
+

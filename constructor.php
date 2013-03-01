@@ -1,6 +1,6 @@
 <?php
 
-define("STATIC_URL", "/");
+define("STATIC_URL", "/vytee-web/");
 class constructorGeneral{
     function inicializarHTML($titulo){
         echo '

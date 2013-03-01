@@ -4,8 +4,29 @@
             <p>Hola, bienvenido!</p>
         </div>
         <div id="welcomeUserMessage">
-            <p>Registrese como cliente nuevo y empecemos con su proyecto!</p>
+            <p class="welcomerMessage">Registrese como cliente nuevo y empecemos con su proyecto!</p>
+            <p class="userLogon" onclick="showLogonDialog();" onmouseleave="hideLogonDialog();">Iniciar Sesión | ▼</p>
+            <div id="logonDialog">
+                <form id="logonForm" action="<?php echo STATIC_URL ?>readers/verify.php" method="post">
+                    <label>Usuario: </label>
+                    <input type="text" name="user" style="width: 150px; float: right;"/>
+                    <div class="clear"></div>
+                    <label>Contraseña: </label>
+                    <input type="password" name="pass" style="width: 150px; float: right;"/>
+                    <div class="clear"></div>
+                    <button type="submit" class="positive" style="margin-top: 10px;" onclick="this.form.submit()" name="enviar">
+                        Iniciar Sesión
+                    </button>
+                    <div style="float: right;">
+                        <button type="submit" class="negative" style="margin-top: 10px;" >
+                            Registrarse
+                        </button>
+                    </div>
+
+                </form>
+            </div>
         </div>
+
     </div>
 </div>
 <div id="header">

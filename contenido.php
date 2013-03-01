@@ -12,7 +12,7 @@
 
 //Incluir librerias
 include('constructor.php'); //Constructor
-include('getVarGET.php'); //Obtener variables de la URL
+include('php/getVarGET.php'); //Obtener variables de la URL
 
 //Generar Clases Locales
 $default = new constructorGeneral();
@@ -20,9 +20,11 @@ $interfaz = new contructorInterfaz();
 
 //definir si es generico o pre-determinado
 switch($q){
+    //Empresa
     case "empresa":
         if(isset($c)){
             switch($c){
+                //Empresa - Equipo
                 case "equipo":
                     include("plantillas/_equipo.php");
                     break;
@@ -36,14 +38,17 @@ switch($q){
         }
         break;
 
+    //Inicio (Animacion)
     case "inicio":
         include("plantillas/_inicio.php");
         break;
 
+    //Home
     case "home":
         include("plantillas/_home.php");
         break;
 
+    //Divisiones
     case "divisiones":
         if(isset($c)){
             switch($c){

@@ -20,6 +20,7 @@ $interfaz->agregarHTML("content/home.php");
 $interfaz->insertarCreditos("general");
 
 $default->agregarJavascript("animacionInicio");
+$default->agregarJavascript("main");
 
 $interfaz->cerrarWrapper();
 //Finalizar HTML

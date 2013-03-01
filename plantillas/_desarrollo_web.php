@@ -10,7 +10,6 @@ $default->agregarCSS("equipo");
 $default->inicializarBODY();
 $interfaz->establecerWrapper();
 
-
 //definir Navs
 $interfaz->establecerNavs(1,"Divisiones","divisiones/");
 $interfaz->establecerNavs(2,"Desarrollo Web","divisiones/desarrollo_web");
