@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://Z:/.idea/Z.iml" filepath="Z:/.idea/Z.iml" />
-      <module fileurl="file://file:Z:/../../..///LUCHOPC/..///LUCHOPC/htdocs/vytee-web/.idea/html.iml" filepath="file:Z:/../../..///LUCHOPC/..///LUCHOPC/htdocs/vytee-web/.idea/html.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vytee-web.iml" filepath="$PROJECT_DIR$/.idea/vytee-web.iml" />
-      <module fileurl="file://Z:/.idea/vytee-web.iml" filepath="Z:/.idea/vytee-web.iml" />
-      <module fileurl="file://file:Z:/../../../Z:/../../../Z:/.idea/vytee-web.iml" filepath="file:Z:/../../../Z:/../../../Z:/.idea/vytee-web.iml" />
     </modules>
   </component>
 </project>

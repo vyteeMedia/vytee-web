@@ -1,5 +1,4 @@
 <div id="contentWrapper">
-
     <div class="mainTitleVWF">
         <div class="logoTitle">
             <h1>vytee Customer</h1>
@@ -7,7 +6,7 @@
         </div>
         <div class="mainTitleWrapperVWF">
             <h1>Bienvenido, <?php obtenerDatoUsuario('nombre'); ?></h1>
-            <h3>Servicios en Desarrollo: <?php obtenerDatoUsuario('proyectos activos'); ?> </h3>
+            <h3>Representate <strong><?php obtenerDatoUsuario('empresa'); ?></strong> </h3>
         </div>
     </div>
     <div class="clear"></div>
@@ -25,7 +24,7 @@
                 </div>
                 <div style="width: 230px; float: right; text-align: right;">
                     <p>Etapa del Desarrollo: <span style="color: #A9441F;"><?php obtenerDatoProyecto('etapa'); ?></span></p>
-                    <p>Duración del Desarrollo: <span style="font-weight: bold;"><?php obtenerDatoProyecto('duracion'); ?></span></p>
+                    <p>Duración Estimada de Desarrollo: <span style="font-weight: bold;"><?php obtenerDatoProyecto('duracion'); ?></span></p>
                 </div>
             </div>
         </div>
@@ -41,25 +40,72 @@
         </div>
 
         <div class="projectState">
-            <img src="<?php echo STATIC_URL; ?>img/tmpProjectState.png"/>
+            <h1>Evolución y Fases del Proyecto</h1>
+            <img src="<?php echo STATIC_URL; ?>img/fase1.png"/>
+            <h2>Requisito Siguiente fase: <strong>Aprobar Cotización Final</strong></h2>
         </div>
         <div class="clear"></div>
     </div>
     <div style="float: right; width: 260px;">
         <div class="costWrapper">
+            <div style="width: 260px;height: 55px; border-bottom: 1px #A8A8B7 solid;">
+                <div style="width: 85px; height: 45px; float: left; padding-top: 7px; text-align: right;">
+                    <span class="saldoFavor">S/. <?php obtenerDatoUsuario('saldo'); ?>.00</span>
+                    <span class="dSaldoFavor">Saldo a Favor</span>
+                </div>
+                <div style="width: 160px; height: 50px; float: right; padding-top: 10px; ">
+                    <span class="linkAnalisisOpcionesPago">Analizar Opciones de Pago</span>
+                    <span class="linkCotizacion">Cotización Detallada</span>
+                </div>
+            </div>
 
+            <div style="width: 260px;height: 55px;">
+                <div style="width: 90px; height: 45px; padding-top: 5px; float: left; text-align: right;">
+                    <span class="dCostoTotal">Costo Total del Proyecto</span>
+                </div>
+                <div style="width: 160px; height: 45px; float: right; text-align: right; padding-right: 5px;  ">
+                    <span class="costoTotal">S/. <?php obtenerDatoProyecto('costo'); ?>.00</span><br/>
+                    <span class="dMsgCostoTotal"><?php obtenerDatoProyecto('estado_costo'); ?></span>
+                </div>
+            </div>
         </div>
         <div class="panel" style="height: 132px;">
             <div class="genericPanelTitle">
                 Opciones
             </div>
+            <div style="float:left; width: 145px; padding-left: 5px;">
+                <img src="<?php echo STATIC_URL;?>img/vwfClientesbtn1.png"/>
+                <img src="<?php echo STATIC_URL;?>img/vwfClientesbtn2.png"/>
+            </div>
+            <div style="float:right; width: 100px;">
+                <img src="<?php echo STATIC_URL;?>img/vwfClientesbtn3.png"/>
+                <img src="<?php echo STATIC_URL;?>img/vwfClientesbtn4.png"/>
+            </div>
         </div>
         <div class="panelWB" style="height: 100px;">
-
+            <h1>Último Registro de Desarrollo</h1>
+            <p>[17-03]> Implementación GUI Principal</p>
+            <p>[17-03]> Diagramación Plantilla General</p>
+            <p>[15-03]> Retoma de contacto de imágenes</p>
         </div>
         <div class="panel" style="height: 375px;">
             <div class="genericPanelTitle">
                 Servicios Incluidos en el Paquete
+            </div>
+            <div class="miniSpec">
+                <img src="<?php echo STATIC_URL;?>img/miniSpec_CP.png"/>
+                <h1>Catálogo de Productos</h1>
+                <p>Diseño y habilitación de un catálogo tipo ShowCase.</p>
+            </div>
+            <div class="miniSpec">
+                <img src="<?php echo STATIC_URL;?>img/miniSpec_FB.png"/>
+                <h1>Página de Facebook</h1>
+                <p>Diseño personalizado de una página de facebook para la empresa.</p>
+            </div>
+            <div class="miniSpec">
+                <img src="<?php echo STATIC_URL;?>img/miniSpec_AJS.png"/>
+                <h1>Animación JS</h1>
+                <p>Tecnologia JavaScript para la creación de animaciones sin cargar memoria del PC.</p>
             </div>
         </div>
     </div>
@@ -75,26 +121,32 @@
 
     <!--Boton Resaltado-->
     <div class="siderbarResaltado">
-        <img class="imgSidebar" style="margin-top: 7px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
-        Solicitar Cotización
+        <img class="imgSidebar" style="margin-top: 7px; margin-left: 13px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
+        Editar Cuenta
+    </div>
+
+    <!--Boton Resaltado-->
+    <div class="siderbarResaltado">
+        <img class="imgSidebar" style="margin-top: 7px; margin-left: 13px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
+        Nueva Cotización
+    </div>
+
+    <!--Boton Simple Tienda-->
+    <div class="sidebarSimple">
+        <img class="imgSidebar" style="margin-top: 2px;" src="<?php echo STATIC_URL;?>img/btnS.png"/>
+        Ver Tienda
     </div>
 
     <!--Boton Simple-->
     <div class="sidebarSimple">
-        <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
-        Paquetes para Personas
+        <img class="imgSidebar" style="margin-top: 2px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
+        Departamento de Desarrollo Web
     </div>
 
     <!--Boton Simple-->
     <div class="sidebarSimple">
-        <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
-        Paquetes para Empresas
-    </div>
-
-    <!--Boton Simple-->
-    <div class="sidebarSimple">
-        <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
-        Paquetes Personalizados
+        <img class="imgSidebar" style="margin-top: 2px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
+        Departamento de Diseño Gráfico
     </div>
 
 </div>

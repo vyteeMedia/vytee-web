@@ -2,8 +2,7 @@
     <div id="logonBar">
         <div id="userID">
             <p>
-
-                Hola <?php session_start(); echo $_SESSION['usuario_nombre']; ?>, bienvenido!
+                Hola <?php if(isset($_SESSION['usuario_nombre'])){ echo $_SESSION['usuario_nombre'];}else{echo "Invitado";} ?>, bienvenido!
             </p>
         </div>
         <div id="welcomeUserMessage">
@@ -11,9 +10,9 @@
             <?php
             if(isset($_SESSION['usuario_nombre'])){
                 ?>
-                <p class="welcomerMessage1">Tiene 1 Proyecto en Desarrollo</p>
+                <p class="welcomerMessage1">Tiene <?php obtenerDatoUsuario('proyectos activos'); ?> Proyecto(s) en Desarrollo</p>
                 <p class="welcomerMessage2">No hay ningun mensaje en su bandeja</p>
-                <p class="welcomerMessage3">Tiene S/. 0.00 a su favor</p>
+                <p class="welcomerMessage3">Tiene S/. <?php obtenerDatoUsuario('saldo'); ?>.00 a su favor</p>
                 <p class="userLogon" onclick="showLogonDialog();" onmouseleave="hideLogonDialog();">Opciones de Sesión | ▼</p>
                 <div id="logonDialog" style="height: 90px; width: 220px;">
                     <h2><?php echo $_SESSION['usuario_nombre']." ".$_SESSION['usuario_apellido']; ?></label></h2>

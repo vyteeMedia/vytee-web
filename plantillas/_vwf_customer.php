@@ -1,7 +1,4 @@
 <?php
-//Conectarse a la BD
-include('readers/dbAccess.php');
-
 //Inicializar el HTML
 $default->inicializarHTML('vytee Work Flow - Portal para Clientes');
 
@@ -28,6 +25,7 @@ $default->agregarJavascript("animacionInicio");
 
 
 $interfaz->cerrarWrapper();
+
 //Finalizar HTML
 $default->finalizarHTML();
 

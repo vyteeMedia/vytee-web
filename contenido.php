@@ -14,6 +14,7 @@
 include('constructor.php'); //Constructor
 include('php/getVarGET.php'); //Obtener variables de la URL
 include('readers/dbReader.php'); //Obtener datos de la base de datos
+include('readers/dbAccess.php'); //Obtener datos de la base de datos
 
 //Generar Clases Locales
 $default = new constructorGeneral();

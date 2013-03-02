@@ -3,6 +3,10 @@
 define("STATIC_URL", "/vytee-web/");
 class constructorGeneral{
     function inicializarHTML($titulo){
+        //Inicializa Sesion
+        session_start();
+
+        //Imprimi el html inicial
         echo '
             <!DOCTYPE html>
             <html>
