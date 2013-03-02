@@ -14,5 +14,5 @@ function Conectarse()
     return $link;
 }
 $link=Conectarse();
-echo "Conexión con la base de datos conseguida.<br>";
+mysql_query("SET NAMES 'utf8'"); //Leer carateres UTF8
 ?>

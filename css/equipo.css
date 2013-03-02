@@ -99,7 +99,7 @@
 .miniTitle h3{
     font-family: arial;
     font-size: 18px;
-    Color: #3F3F3F ;
+    Color: #3F3F3F;
     font-weight:lighter;
     margin-top:20px;
 }
@@ -189,4 +189,202 @@
     font-size: 12px;
     color:#3F3F3F ;
     margin: 0;
+}
+
+.mainTitleVWF{
+    margin-top: 0;
+    background-color:rgb(169,68,34);
+    height:68px;
+    /* Firefox v3.5+ */
+    -moz-box-shadow:7px 6px 15px rgba(0,0,0,0.65);
+    /* Safari v3.0+ and by Chrome v0.2+ */
+    -webkit-box-shadow:7px 6px 15px rgba(0,0,0,0.65);
+    /* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+    box-shadow:7px 6px 15px rgba(0,0,0,0.65);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=7,OffY=6,Color=#a6000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=7,OffY=6,Color=#a6000000,Positive=true);
+}
+
+.mainTitleVWF h1{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:25px;
+    color: #ffffff;
+}
+
+.mainTitleVWF h3{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:12px;
+    color: #ffffff;
+}
+
+.logoTitle{
+    background-color:rgb(219,109,72);
+    width:214px;
+    height:45px;
+    margin-top: 10px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    float: left;
+    /* Firefox v3.5+ */
+    -moz-box-shadow:2px 4px 7px rgba(0,0,0,0.65);
+    /* Safari v3.0+ and by Chrome v0.2+ */
+    -webkit-box-shadow:2px 4px 7px rgba(0,0,0,0.65);
+    /* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+    box-shadow:2px 4px 7px rgba(0,0,0,0.65);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=4,Color=#a6000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=4,Color=#a6000000,Positive=true);
+}
+
+.mainTitleWrapperVWF{
+    width: 510px;
+    height: 58px;
+    float: right;
+    padding-top: 12px;
+    margin-left: 15px;
+}
+
+.logoTitle h1{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:20px;
+    color: #ffffff;
+}
+
+.logoTitle h3{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:12px;
+    color: #ffffff;
+}
+
+.projectTitleVWF{
+    width: 473px;
+    height: 110px;
+    margin-top: 15px;
+}
+
+.projectTitleVWF img{
+    float: left;
+    margin-right: 10px;
+}
+
+.projectTitleVWF h1{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:20px;
+    color: #3F3F3F;
+}
+
+.projectTitleVWF h3{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:12px;
+    color: #3F3F3F;
+}
+
+.mainProjectTitleVWF{
+    width: 473px;
+    height: 51px;
+    border-bottom: 1px #A8A8B7 solid;
+}
+
+.subProjectTitleVWF{
+    width: 473px;
+    height: 51px;
+    color: #3F3F3F;
+}
+
+.subProjectTitleVWF p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size:11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.projectScreenShot{
+    width: 471px;
+    height: 467px;
+    border: 1px #3F3F3F solid;
+}
+
+.projectScreenShot img{
+    width: 471px;
+    height: 414px;
+    margin: 0;
+}
+
+.projectState{
+    width: 473px;
+    height: 201px;
+}
+
+.panelTitle{
+    width: 466px;
+    height: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 5px;
+    background-color: #3F3F3F;
+}
+
+.screenShotLink{
+    margin-top: -5px;
+    width: 466px;
+    height: 28px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3F3F3F;
+    font-size: 18px;
+}
+
+.costWrapper{
+    margin-top: 15px;
+    background-color:rgb(63,63,63);
+    width:260px;
+    height:110px;
+    /* Firefox v3.5+ */
+    -moz-box-shadow:2px 1px 4px rgba(0,0,0,0.65);
+    /* Safari v3.0+ and by Chrome v0.2+ */
+    -webkit-box-shadow:2px 1px 4px rgba(0,0,0,0.65);
+    /* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+    box-shadow:2px 1px 4px rgba(0,0,0,0.65);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=1,Color=#a6000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=1,Color=#a6000000,Positive=true);
+}
+
+.panel{
+    width:258px;
+    border: 1px #A8A8B7 solid;
+    margin-top: 21px;
+}
+
+.panelWB{
+    width:260px;
+    margin-top: 21px;
+}
+
+.genericPanelTitle{
+    width: 254px;
+    height: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 5px;
+    background-color: #3F3F3F;
 }

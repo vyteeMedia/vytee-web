@@ -212,7 +212,7 @@
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true);
 }
 
-.welcomerMessage{
+.welcomerMessage1, .welcomerMessage2, .welcomerMessage3{
     font-family:Arial, Helvetica, sans-serif;
     font-size:12px;
     line-height:150%;
@@ -222,6 +222,9 @@
     margin-left: 7px;
     width: 500px;
     float: left;
+}
+.welcomerMessage2, .welcomerMessage3{
+    display: none;
 }
 
 .userLogon{
@@ -239,8 +242,7 @@
 
 #logonDialog{
     display: none;
-    width: 250px;
-    height: 90px;
+    text-align: right;
     background-color: #DFDFDF;
     border: 1px #999999 solid;
     position: absolute;
@@ -257,6 +259,21 @@
     box-shadow:1px 1px 3px rgba(0,0,0,0.40);
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true)";
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true);
+}
+
+#logonDialog h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #807266;
+    font-size:14px;
+    margin: 0 0 5px 0;
+}
+
+#logonDialog h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #807266;
+    font-size:12px;
+    margin: 0px;
 }
 
 #logonForm label{
@@ -409,6 +426,7 @@ button[type]{
     font-size:12px;
     line-height:150%;
     color:rgb(169,68,33);
+    padding-top: 4px;
 }
 
 #urlLocation a{
