@@ -51,5 +51,7 @@ $(document).ready(function(){
     $('#banner1').delay(24000).fadeIn(3000);
     $('#banner1TEXT').delay(20000).fadeOut(1);
     $('#banner4').delay(2000).fadeOut(1000);
+
+
 });
 

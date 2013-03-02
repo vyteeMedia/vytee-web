@@ -17,6 +17,7 @@ class constructorGeneral{
             <link rel="icon" type="image/png" href="favicon.png"/>
 
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+            <script type="text/javascript" src="'.STATIC_URL.'js/main.js"></script>
         ';
     }
 

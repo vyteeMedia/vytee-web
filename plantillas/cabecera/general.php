@@ -1,32 +1,63 @@
 <div id="fixedHeader">
     <div id="logonBar">
         <div id="userID">
-            <p>Hola, bienvenido!</p>
+            <p>
+
+                Hola <?php session_start(); echo $_SESSION['usuario_nombre']; ?>, bienvenido!
+            </p>
         </div>
         <div id="welcomeUserMessage">
-            <p class="welcomerMessage">Registrese como cliente nuevo y empecemos con su proyecto!</p>
-            <p class="userLogon" onclick="showLogonDialog();" onmouseleave="hideLogonDialog();">Iniciar Sesión | ▼</p>
-            <div id="logonDialog">
-                <form id="logonForm" action="<?php echo STATIC_URL ?>readers/verify.php" method="post">
-                    <label>Usuario: </label>
-                    <input type="text" name="user" style="width: 150px; float: right;"/>
-                    <div class="clear"></div>
-                    <label>Contraseña: </label>
-                    <input type="password" name="pass" style="width: 150px; float: right;"/>
-                    <div class="clear"></div>
-                    <button type="submit" class="positive" style="margin-top: 10px;" onclick="this.form.submit()" name="enviar">
-                        Iniciar Sesión
+
+            <?php
+            if(isset($_SESSION['usuario_nombre'])){
+                ?>
+                <p class="welcomerMessage1">Tiene 1 Proyecto en Desarrollo</p>
+                <p class="welcomerMessage2">No hay ningun mensaje en su bandeja</p>
+                <p class="welcomerMessage3">Tiene S/. 0.00 a su favor</p>
+                <p class="userLogon" onclick="showLogonDialog();" onmouseleave="hideLogonDialog();">Opciones de Sesión | ▼</p>
+                <div id="logonDialog" style="height: 90px; width: 220px;">
+                    <h2><?php echo $_SESSION['usuario_nombre']." ".$_SESSION['usuario_apellido']; ?></label></h2>
+                    <h3><?php echo $_SESSION['usuario_correo']; ?></h3>
+                    <h3><?php echo $_SESSION['usuario_empresa']; ?></h3>
+                    <div class="clear" style="margin-bottom: 15px;"></div>
+                    <button class="positive" onclick="window.location='<?php echo STATIC_URL;?>vwf/customer'" name="enviar">
+                        Ir a la Cuenta
                     </button>
-                    <div style="float: right;">
-                        <button type="submit" class="negative" style="margin-top: 10px;" >
-                            Registrarse
+
+                    <button class="negative" onclick="window.location='<?php echo STATIC_URL;?>php/cerrarSesion.php'" style="float: right; margin-right: 0;">
+                        Cerrar Sesion
+                    </button>
+
+                </div>
+                <?php
+            }else{
+                ?>
+                <p class="welcomerMessage1">Registrese como cliente nuevo y empecemos con su proyecto!</p>
+                <p class="welcomerMessage2">Si ya está registrado, inicie sesión para ver el avance de sus proyectos!</p>
+                <p class="welcomerMessage3">Adquiera nuevos productos iniciando sesión en su cuenta</p>
+                <p class="userLogon" onclick="showLogonDialog();" onmouseleave="hideLogonDialog();">Iniciar Sesión | ▼</p>
+                <div id="logonDialog" style="height: 90px; width: 250px;">
+                    <form id="logonForm" action="<?php echo STATIC_URL ?>readers/verify.php" method="post">
+                        <label>Usuario: </label>
+                        <input type="text" name="user" style="width: 150px; float: right;"/>
+                        <div class="clear"></div>
+                        <label>Contraseña: </label>
+                        <input type="password" name="pass" style="width: 150px; float: right;"/>
+                        <div class="clear"></div>
+                        <button type="submit" class="positive" style="margin-top: 10px;" onclick="this.form.submit()" name="enviar">
+                            Iniciar Sesión
                         </button>
-                    </div>
-
-                </form>
-            </div>
+                        <div style="float: right;">
+                            <button type="submit" class="negative" style="margin-top: 10px;"  onclick="">
+                                Registrarse
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <?php
+            }
+            ?>
         </div>
-
     </div>
 </div>
 <div id="header">
