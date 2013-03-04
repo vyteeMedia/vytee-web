@@ -73,24 +73,24 @@
 
     <!--Boton Resaltado-->
     <div class="siderbarResaltado">
-        <img class="imgSidebar" style="margin-top: 7px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
+        <img class="imgSidebar" style="margin-top: 7px; margin-left: 13px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
         Solicitar Cotización
     </div>
 
     <!--Boton Simple-->
-    <div class="sidebarSimple">
+    <div class="sidebarSimple" <?php linkTo("paquetes/personas"); ?>>
         <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
         Paquetes para Personas
     </div>
 
     <!--Boton Simple-->
-    <div class="sidebarSimple">
+    <div class="sidebarSimple" <?php linkTo("paquetes/empresas"); ?>>
         <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
         Paquetes para Empresas
     </div>
 
     <!--Boton Simple-->
-    <div class="sidebarSimple">
+    <div class="sidebarSimple" <?php linkTo("paquetes/otros"); ?>>
         <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
         Paquetes Personalizados
     </div>

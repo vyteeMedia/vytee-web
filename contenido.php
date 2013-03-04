@@ -32,6 +32,39 @@ switch($q){
                     include("plantillas/_equipo.php");
                     break;
 
+                //Empresa - Metodo
+                case "metodo":
+                    include("plantillas/_metodo.php");
+                    break;
+
+                default:
+                    include("404.html");
+                    break;
+            }
+        }else{
+            include("plantillas/_empresa.php");
+        }
+        break;
+
+    //paquetes
+    case "paquetes":
+        if(isset($c)){
+            switch($c){
+                //paquetes - personas
+                case "personas":
+                    include("plantillas/_paquetes-personas.php");
+                    break;
+
+                //paquetes - empresas
+                case "empresas":
+                    include("plantillas/_paquetes-empresas.php");
+                    break;
+
+                //paquetes - personalizados
+                case "personalizados":
+                    include("plantillas/_paquetes-otros.php");
+                    break;
+
                 default:
                     include("404.html");
                     break;
@@ -87,6 +120,24 @@ switch($q){
             }
         }else{
             include("plantillas/_empresa.php");
+        }
+        break;
+
+    //---------------------------------------------------------
+    //Portafolio
+    case "Portafolio"||"portafolio":
+        if(isset($c)){
+            switch($c){
+                case "desarrollo_web":
+                    include("plantillas/_portafolio-web.php");
+                    break;
+
+                default:
+                    include("404.html");
+                    break;
+            }
+        }else{
+            include("plantillas/_portafolio-web.php");
         }
         break;
 

@@ -14,7 +14,7 @@
                 Equipo de Imágen Publicitaria<br/>
             </div>
             <div class="columnDepartment" style="width:500px">
-                <span style="font-size: 20px;">vytee Media Solutions ©2012</span><br/>
+                <span style="font-size: 20px;">vytee Media Solutions ©2013</span><br/>
                 Todos los Derechos Reservados<br/>
             </div>
         </div>

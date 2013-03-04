@@ -1,11 +1,64 @@
 <div id="mainBanner">
     <div class="mainBanner">
-        <img src="img/mainBanner.png"/>
-    </div>
+        <div id="sliderContainer">
 
-    <!--Fondo Genérico para los banners-->
-    <div class="genericBanner">
-        <img src="img/mainGenericBanner.png"/>
+            <div id="mySlides">
+
+                <div id="slide1" class="slide">
+
+                    <img src="img/mainBanner.png" alt="Slide 1 jFlow Plus" style="cursor: pointer;" <?php linkTo("paquetes/empresas")?>/>
+
+
+                </div>
+
+                <div id="slide2" class="slide">
+
+                    <img src="img/mainBanner4.png" alt="Slide 2 jFlow Plus" />
+
+
+                </div>
+
+                <div id="slide3" class="slide">
+
+                    <img src="img/mainBanner3.png" alt="Slide 3 jFlow Plus" />
+
+
+                </div>
+
+                <div id="slide4" class="slide">
+
+                    <img src="img/mainBanner2.png" alt="Slide 3 jFlow Plus" />
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <div id="myController">
+
+                <span class="jFlowControl"></span>
+
+                <span class="jFlowControl"></span>
+
+                <span class="jFlowControl"></span>
+
+                <span class="jFlowControl"></span>
+
+            </div>
+
+
+
+            <div class="jFlowPrev"></div>
+
+            <div class="jFlowNext"></div>
+
+        </div>
+
+        <!--end: sliderContainer -->
+
     </div>
     <!--/Fondo Genérico para los banners-->
 </div>
@@ -57,7 +110,7 @@
             </a>
         </div>
         <div id="linksDerecha">
-            <a href="#">
+            <a href="#" <?php linkTo("portafolio")?>>
                 <img src="img/btnD1.png" id="btnD1"/>
             </a>
             <a href="#">

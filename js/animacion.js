@@ -1,6 +1,8 @@
 $().framerate({framerate: 120, logframes: true});
 $(document).ready(function(){
 
+
+
     /*Animación Inicial*/
     $('#welcomeContainer').animate({opacity: 0}, 1);
     $('#englishLink').animate({opacity: 0}, 1);

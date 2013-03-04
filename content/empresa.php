@@ -33,10 +33,10 @@
     <div class="clear"></div>
 
     <!--CONTENIDO CON IMAGEN-->
-    <div class="contentWithImage">
-        <img src="<?php echo STATIC_URL; ?>img/empresa1.jpg" width="260"/>
+    <div class="contentWithImage" >
+        <img src="<?php echo STATIC_URL; ?>img/empresa1.jpg" width="260" <?php linkTo("empresa/metodo"); ?>/>
         <div>
-            <h1>Nuestro Método de Trabajo</h1>
+            <h1 <?php linkTo("empresa/metodo"); ?>>Nuestro Método de Trabajo</h1>
             <h3>Una búsqueda constante de nuevas tecnologías y herramientas para el desarrollo </h3>
             <p>
                 Vytee desarrolla estrategias y soluciones comunicativas en el área de diseño y desarrollo de páginas web, realización audiovisual y diseño gráfico en general  tanto en el ámbito comercial, como institucional y artístico.
@@ -63,7 +63,7 @@
     </div>
 
     <!--Boton Simple-->
-    <div class="sidebarSimple">
+    <div class="sidebarSimple" onclick="location.href='<?php echo STATIC_URL; ?>empresa/metodo'">
         <img class="imgSidebar" style="margin-top: 4px;" src="<?php echo STATIC_URL;?>img/btnSS.png"/>
         Método de Trabajo
     </div>

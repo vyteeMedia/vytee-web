@@ -1,12 +1,10 @@
 $(document).ready(function(){
 
+
+
     /*Animación Inicial*/
     $('#contentWrapper').animate({opacity: 0, left: +100}, 1);
     $('#previewSlider').animate({paddingLeft: +500},1);
-
-    $('#wrapper').animate({opacity: 0, left: +100}, 1);
-
-    $('#wrapper').animate({left: -0, opacity: 1},500);
 
     $('#contentWrapper').animate({left: -0, opacity: 1},1000);
 
@@ -38,5 +36,33 @@ $(document).ready(function(){
     $('.welcomerMessage3').delay(10000).fadeIn(500);
     $('.welcomerMessage3').delay(4000).fadeOut(500);
     $('.welcomerMessage1').delay(10000).fadeIn(500);
+
+    $("#myController").jFlow({
+
+        controller: ".jFlowControl", // must be class, use . sign
+
+        slideWrapper : "#jFlowSlider", // must be id, use # sign
+
+        slides: "#mySlides",  // the div where all your sliding divs are nested in
+
+        selectedWrapper: "jFlowSelected",  // just pure text, no sign
+
+        effect: "flow", //this is the slide effect (rewind or flow)
+
+        width: "1000px",  // this is the width for the content-slider
+
+        height: "345px",  // this is the height for the content-slider
+
+        duration: 400,  // time in milliseconds to transition one slide
+
+        pause: 7000, //time between transitions
+
+        prev: ".jFlowPrev", // must be class, use . sign
+
+        next: ".jFlowNext", // must be class, use . sign
+
+        auto: true
+
+    });
 });
 
