@@ -20,6 +20,8 @@ include('readers/dbAccess.php'); //Obtener datos de la base de datos
 $default = new constructorGeneral();
 $interfaz = new contructorInterfaz();
 
+
+//todo: hacer que el switch se realice mediante una consulta en la base de datos
 //definir si es generico o pre-determinado
 switch($q){
     //---------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-define("STATIC_URL", "/vytee-web/");
+include('config.php');
 class constructorGeneral{
     function inicializarHTML($titulo){
         //Inicializa Sesion

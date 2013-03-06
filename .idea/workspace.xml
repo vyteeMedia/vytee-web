@@ -2,50 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdad3471-d41e-4796-9527-31e2c35313a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/contentBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/metodo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/paquetes-empresas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/paquetes-personas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/portafolio-web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/climacons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/component2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jflow.style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/boxgrid.example2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/boxgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jflow.plus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jflow.plus.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.fittext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_metodo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_paquetes-empresas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_paquetes-personas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plantillas/_portafolio-web.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\css.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\extend.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\faq.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\htaccess.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\html.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\js.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\misc.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\doc\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\vytee-web\login\default.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mainBanner.png" afterPath="$PROJECT_DIR$/img/mainBanner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constructor.php" afterPath="$PROJECT_DIR$/constructor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contenido.php" afterPath="$PROJECT_DIR$/contenido.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/desarrollo_web.php" afterPath="$PROJECT_DIR$/content/desarrollo_web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/empresa.php" afterPath="$PROJECT_DIR$/content/empresa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/home.php" afterPath="$PROJECT_DIR$/content/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animacion.js" afterPath="$PROJECT_DIR$/js/animacion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animacionInicio.js" afterPath="$PROJECT_DIR$/js/animacionInicio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/_home.php" afterPath="$PROJECT_DIR$/plantillas/_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/creditos/general.php" afterPath="$PROJECT_DIR$/plantillas/creditos/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/portafolio-web.php" afterPath="$PROJECT_DIR$/content/portafolio-web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/vwf_customer.php" afterPath="$PROJECT_DIR$/content/vwf_customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/equipo.css" afterPath="$PROJECT_DIR$/css/equipo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goo.php" afterPath="$PROJECT_DIR$/goo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/boxgrid.example2.js" afterPath="$PROJECT_DIR$/js/boxgrid.example2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/boxgrid.js" afterPath="$PROJECT_DIR$/js/boxgrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plantillas/cabecera/general.php" afterPath="$PROJECT_DIR$/plantillas/cabecera/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readers/dbAccess.php" afterPath="$PROJECT_DIR$/readers/dbAccess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readers/verify.php" afterPath="$PROJECT_DIR$/readers/verify.php" />
     </list>
     <ignored path="html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,103 +45,62 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="animacion.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/animacion.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="animacionInicio.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/animacionInicio.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="7" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="paquetes-empresas.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/paquetes-empresas.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="equipo.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/equipo.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="104" selection-end="119" vertical-scroll-proportion="0.100354195">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_home.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plantillas/_home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="42" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="715" column="0" selection-start="15539" selection-end="15539" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jflow.plus.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/jflow.plus.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="697" column="0" selection-start="14836" selection-end="14836" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="131" selection-start="300" selection-end="300" vertical-scroll-proportion="0.16171224">
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="contenido.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contenido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="42" selection-start="692" selection-end="692" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vwf_customer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/vwf_customer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="32" selection-start="1802" selection-end="1802" vertical-scroll-proportion="-13.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equipo.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/equipo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="372" column="19" selection-start="7006" selection-end="7006" vertical-scroll-proportion="0.6602452">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="5" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTxt.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FindTxt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -186,21 +116,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/plantillas/_paquetes-empresas.php" />
-        <option value="$PROJECT_DIR$/content/paquetes-empresas.php" />
-        <option value="$PROJECT_DIR$/content/paquetes-personas.php" />
-        <option value="$PROJECT_DIR$/contenido.php" />
-        <option value="$PROJECT_DIR$/plantillas/_portafolio-web.php" />
-        <option value="$PROJECT_DIR$/css/default.css" />
-        <option value="$PROJECT_DIR$/css/climacons.css" />
-        <option value="$PROJECT_DIR$/content/portafolio-web.php" />
-        <option value="$PROJECT_DIR$/css/component2.css" />
-        <option value="$PROJECT_DIR$/css/jflow.style.css" />
-        <option value="$PROJECT_DIR$/plantillas/_home.php" />
-        <option value="$PROJECT_DIR$/js/animacion.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/content/home.php" />
         <option value="$PROJECT_DIR$/js/animacionInicio.js" />
+        <option value="$PROJECT_DIR$/goo.php" />
+        <option value="$PROJECT_DIR$/content/home.php" />
+        <option value="$PROJECT_DIR$/content/desarrollo_web.php" />
+        <option value="$PROJECT_DIR$/content/portafolio-web.php" />
+        <option value="$PROJECT_DIR$/plantillas/cabecera/general.php" />
+        <option value="$PROJECT_DIR$/readers/verify.php" />
+        <option value="$PROJECT_DIR$/constructor.php" />
+        <option value="$PROJECT_DIR$/readers/dbAccess.php" />
+        <option value="$PROJECT_DIR$/js/boxgrid.example2.js" />
+        <option value="$PROJECT_DIR$/js/boxgrid.js" />
+        <option value="$PROJECT_DIR$/contenido.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/content/vwf_customer.php" />
         <option value="$PROJECT_DIR$/css/equipo.css" />
       </list>
     </option>
@@ -272,6 +202,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,117 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plantillas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plantillas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plantillas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cabecera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vytee-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All" />
       </pane>
     </panes>
   </component>
@@ -410,18 +234,39 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_vti_pvt" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="vytee Server" serverId="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" createEmptyFolders="true" autoUpload="true" uploadOnSaveAll="true">
+  <component name="PublishConfig" serverName="vytee - main" serverId="33d5f2f3-10e5-4512-8ce1-e76f88ba2bf3" createEmptyFolders="true" autoUpload="true" uploadOnSaveAll="true">
     <servers>
+      <server id="33d5f2f3-10e5-4512-8ce1-e76f88ba2bf3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <ExcludedPath>
+              <option name="local" value="true" />
+              <option name="path" value="C:\xampp\htdocs\vytee-web\.idea" />
+            </ExcludedPath>
+            <ExcludedPath>
+              <option name="local" value="true" />
+              <option name="path" value="C:\xampp\htdocs\vytee-web\_vti_cnf" />
+            </ExcludedPath>
+            <ExcludedPath>
+              <option name="local" value="true" />
+              <option name="path" value="C:\xampp\htdocs\vytee-web\_vti_pvt" />
+            </ExcludedPath>
+          </excludedPaths>
+        </serverdata>
+      </server>
       <server id="355c4d43-ddae-49f5-b25f-0900d8a8ca95">
         <serverdata />
       </server>
@@ -458,10 +303,10 @@
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -490,14 +335,14 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" server_name="vytee Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="05cba19d-ab25-4f64-b94c-e1ab4c8f68f9" server_name="vytee Server">
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -568,10 +413,14 @@
       <created>1362258165204</created>
       <updated>1362258165204</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Weekly Upload">
+      <created>1362372048962</created>
+      <updated>1362372048962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -596,22 +445,22 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1072572" sideWeight="0.6718232" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34143648" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.53177255" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.49573106" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21611527" sideWeight="0.63314915" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21824974" sideWeight="0.6718232" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20757738" sideWeight="0.65856355" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.226254" sideWeight="0.65856355" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.53177255" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34143648" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -676,133 +525,101 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plantillas/_portafolio-web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="597" selection-end="597" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/component2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="58" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="15" selection-start="3409" selection-end="3415" vertical-scroll-proportion="-22.23077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/_desarrollo_web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/desarrollo_web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="9" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jflow.plus.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/portafolio-web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="27" selection-start="5370" selection-end="5370" vertical-scroll-proportion="2.082045">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#span#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#span#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#span#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#span#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jflow.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.23181818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jflow.plus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantillas/_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/animacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="131" selection-start="300" selection-end="300" vertical-scroll-proportion="0.16171224">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/paquetes-empresas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/animacionInicio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="7" selection-start="2206" selection-end="2206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="89" column="10" selection-start="4416" selection-end="4416" vertical-scroll-proportion="0.7027348" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="715" column="0" selection-start="15539" selection-end="15539" vertical-scroll-proportion="0.0">
+        <state line="697" column="0" selection-start="14836" selection-end="14836" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/portafolio-web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="23" selection-start="7639" selection-end="7639" vertical-scroll-proportion="0.0625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/cabecera/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="29" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.030520646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readers/verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="908" selection-end="908" vertical-scroll-proportion="0.70197487" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06104129">
+          <folding>
+            <marker date="1362525969606" expanded="true" signature="1161:1170" placeholder="..." />
+            <marker date="1362525969606" expanded="true" signature="2621:2630" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readers/dbAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="36" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.030520646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/boxgrid.example2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="38" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/boxgrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="43" selection-start="4643" selection-end="4643" vertical-scroll-proportion="2.1211073" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FindTxt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contenido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="42" selection-start="692" selection-end="692" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/vwf_customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="32" selection-start="1802" selection-end="1802" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/equipo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="104" selection-end="119" vertical-scroll-proportion="0.100354195">
+        <state line="372" column="19" selection-start="7006" selection-end="7006" vertical-scroll-proportion="0.6602452">
           <folding />
         </state>
       </provider>

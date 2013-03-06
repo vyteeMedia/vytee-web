@@ -34,7 +34,7 @@
                 Propuesta de Diseño Actual
             </div>
             <img src="<?php echo STATIC_URL; ?>img/project1alpha1.png"/>
-            <div class="screenShotLink">
+            <div class="screenShotLink" onclick="window.open('http://www.vytee.com/decovaldiviezo','_blank');">
                 Ver Propuesta en Linea
             </div>
         </div>

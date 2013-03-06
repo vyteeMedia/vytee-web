@@ -158,7 +158,6 @@ var Boxgrid = (function() {
 
 		$( window ).on( 'debouncedresize', function() { 
 			winsize = getWindowSize();
-			// todo : cache the current item
 			if( current !== -1 ) {
 				$items.eq( current ).children( 'div.rb-overlay' ).css( 'clip', 'rect(0px ' + winsize.width + 'px ' + winsize.height + 'px 0px)' );
 			}

@@ -32,7 +32,7 @@
             </li>
             <li class="icon-clima-1">
                 <h3>VCP S.A.</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio_vcpsaT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio_vcpsaT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -72,7 +72,7 @@
             </li>
             <li class="icon-clima-1 rb-span-2">
                 <h3>AliTravel</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio2_alitravelT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio2_alitravelT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -82,7 +82,7 @@
             </li>
             <li class="icon-clima-1">
                 <h3>Shaka</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio_shakaT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio_shakaT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -92,7 +92,7 @@
             </li>
             <li class="icon-clima-2">
                 <h3>ELEA 2012</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio_eleaT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio_eleaT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -102,7 +102,7 @@
             </li>
             <li class="icon-clima-11">
                 <h3 style="">Inka Crazy Hostels</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio_inkaT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio_inkaT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -112,7 +112,7 @@
             </li>
             <li class="icon-clima-2">
                 <h3 style="">Michelle Le Blanc</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio2_alitravel.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio2_alitravel.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -122,7 +122,7 @@
             </li>
             <li class="icon-clima-2 rb-span-2">
                 <h3>Lucho Palacios Photography</h3>
-                <img src="<?php echo STATIC_URL; ?>img/portafolio_lpfotoT.PNG" width="100%"/>
+                <img src="<?php echo STATIC_URL; ?>img/portafolio_lpfotoT.png" width="100%"/>
                 <div class="rb-overlay">
                     <span class="rb-close">close</span>
                     <div class="rb-week">
@@ -155,7 +155,7 @@
     </div>
 
     <!--Boton Resaltado-->
-    <div class="siderbarResaltado">
+    <div class="siderbarResaltado" style="padding-top: 8px;">
         <img class="imgSidebar" style="margin-top: 7px; margin-left: 13px;" src="<?php echo STATIC_URL;?>img/btnR.png"/>
         Solicitar Cotización
     </div>

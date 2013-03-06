@@ -64,7 +64,7 @@
 </div>
 
 <div id="mainContent">
-    <div id="section_Clientes">
+    <div id="section_Clientes" style="cursor: pointer;" <?php linkTo("portafolio")?>>
         <div id="previews">
             <div id="previewSlider">
                 <div class="previewCliente" style="margin-left: 9px;">

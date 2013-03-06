@@ -1,4 +1,4 @@
 <?php
-include('php/getVarGet.php');
+include('php/getVarGET.php');
 header('location: '.$q);
 ?>

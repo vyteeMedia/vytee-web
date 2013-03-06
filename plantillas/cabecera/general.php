@@ -22,7 +22,6 @@
                     <button class="positive" onclick="window.location='<?php echo STATIC_URL;?>vwf/customer'" name="enviar">
                         Ir a la Cuenta
                     </button>
-
                     <button class="negative" onclick="window.location='<?php echo STATIC_URL;?>php/cerrarSesion.php'" style="float: right; margin-right: 0;">
                         Cerrar Sesion
                     </button>
